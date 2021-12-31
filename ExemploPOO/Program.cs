@@ -50,13 +50,30 @@ var caminho=".\\";
 var listaString = new List<string>{"Linha 1","Linha 2", "Linha 3"};
 var listaStringCont =  new List<string>{"Linha 4","Linha 5","Linha 6"};
 FileHelper helper = new FileHelper();
+System.Console.WriteLine("Listar diretórios");
 helper.ListarDiretorios(caminho);
+System.Console.WriteLine("Listar Arquivos");
 helper.ListarArquivos(caminho);
+System.Console.WriteLine("Criar Diretorio");
 helper.CriarDiretorio(caminho);
-helper.ApagarDiretorio(caminho);
+System.Console.WriteLine("Criar Arquivo");
 helper.CriarArquivoTexto(Path.Combine(caminho,"NovoDiretorio","arquivo-teste.txt"),"Tem uma mosca na sopa");
+System.Console.WriteLine("Criar Arquivo Stream");
 helper.CriarArquivoTextoStream(Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"), listaString);
+System.Console.WriteLine("Adicionar Arquivo Stream");
 helper.AdicionarArquivoTextoStream (Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"),listaStringCont);
+System.Console.WriteLine("Ler Arquivo  ");
+helper.LerArquivo (Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"));
+System.Console.WriteLine("Ler Arquivo Stream");
+helper.LerArquivoStream (Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"));
+System.Console.WriteLine("Mover Arquivo");
+helper.MoverArquivo(Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"),Path.Combine(caminho,"NovoDiretorio1","arquivo-teste-Stream.txt"));
+System.Console.WriteLine("Copiar Arquivo");
+helper.CopiarArquivo(Path.Combine(caminho,"NovoDiretorio","arquivo-teste-Stream.txt"),Path.Combine(caminho,"NovoDiretorio1","arquivo-teste-Stream.txt"));
+System.Console.WriteLine("Apagar Diretorio");
+helper.ApagarDiretorio(caminho);
+System.Console.WriteLine("Apagar Arquivo");
+helper.DeletarArquivo(caminho);
 
 
 

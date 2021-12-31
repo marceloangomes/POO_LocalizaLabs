@@ -50,5 +50,31 @@ namespace ExemploPOO.Helper
             }
         }
 
+        public void LerArquivo(string caminho){
+            var conteudo = File.ReadAllLines(caminho);
+            foreach(var linha in conteudo){
+                System.Console.WriteLine(linha);
+            }
+        }
+
+        public void LerArquivoStream(string caminho){
+            var linha ="";
+            using (var stream = File.OpenText(caminho)){
+                while((linha=stream.ReadLine()) != null){
+                    System.Console.WriteLine(linha);
+                }
+            }
+        }
+
+        public void MoverArquivo(string caminho, string novoCaminho){
+            File.Move(caminho,novoCaminho);
+        }
+
+        public void CopiarArquivo(string caminho, string novoCaminho){
+            File.Copy(caminho,novoCaminho);
+        }
+        public void DeletarArquivo(string caminho){
+            File.Delete(caminho);
+        }
     }
 }
