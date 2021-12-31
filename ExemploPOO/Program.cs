@@ -11,5 +11,10 @@ p1.Idade=30;
 
 p1.Apresentar();
 
+Retangulo r = new Retangulo();
+r.DefinirMedidas(10,5);
+System.Console.WriteLine($"Área: {r.ObterArea()}");
+
+
 
 
