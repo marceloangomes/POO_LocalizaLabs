@@ -1,0 +1,15 @@
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ExemploPOO.exe
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ExemploPOO.deps.json
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ExemploPOO.runtimeconfig.json
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ExemploPOO.dll
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ref\ExemploPOO.dll
+C:\Users\marce\source\repos\POO\ExemploPOO\bin\Debug\net6.0\ExemploPOO.pdb
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfo.cs
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.dll
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ref\ExemploPOO.dll
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.pdb
+C:\Users\marce\source\repos\POO\ExemploPOO\obj\Debug\net6.0\ExemploPOO.genruntimeconfig.cache
